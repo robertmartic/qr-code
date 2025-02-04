@@ -1,87 +1,42 @@
 body{
-    background-color: #F3EAE3;
+    background-color: #D5E1EF;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
-h1{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    font-size: 14px;
-    padding-left: 30px;
-    padding-top: 30px;
-    color: rgba(0, 0, 0, 0.37);
-}
-h2{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    font-size: 28px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: rgb(0, 0, 0);
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 14px;
-    padding-left: 30px;
-    padding-right: 30px;
-    color: rgba(0, 0, 0, 0.349);
-}
+
 #container{
     display: flex;
-    background-color: white;
-    border-radius: 10px;
-    max-height: 500px;
-}
-#container img{
-    width: 300px;
-    border-radius: 10px 0 0 10px;
-}
-#container h1{
-    margin: 0;
-    font-weight: 450;
-}
-#product-description{
-    width: 300px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    max-width: 250px;
+    background-color: white;
+    border-radius: 20px;
 }
-.price{
-    color: #3D8168;
-    font-size: 40px;
-}
-.buy-button{
-    display: inline-flex;
+
+#container img{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
     justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: auto;
-    margin-bottom: 30px;
-    width: 240px;
-    height: 50px;
-    background-color: #3D8168;
-    border: none;
     border-radius: 10px;
-    gap: -20px;
 }
-.buy-button:hover{
-    background-color: #316955;
-}
-.buy-button:active{
-    background-color: #1f4135;
-}
-.buy-button span{
-    color: rgba(255, 255, 255, 0.788);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    margin: 0;
-    white-space: nowrap;
-    font-size: 16px;
+
+#first-p{
+    text-align: center;
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+
+#second-p{
+    text-align: center;
+    font-family: 'Outfit' ,Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgb(153, 153, 153);
 }
